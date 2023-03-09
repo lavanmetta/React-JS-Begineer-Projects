@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 5rem;
+    color: white;
+    border-radius: 10px;
+    
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h2 {
+    margin: 5px;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background-color: crimson;
+    font-weight: bold;
+    width: 130px;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
