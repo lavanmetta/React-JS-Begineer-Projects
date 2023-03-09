@@ -1,10 +1,9 @@
 
+import Searching from "./components/Searching/searching";
 
 function App() {
   return (
-    <div>
-       
-    </div>
+    <Searching/>
   );
 }
 
