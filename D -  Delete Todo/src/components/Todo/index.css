@@ -1,0 +1,39 @@
+.main {
+    padding: 3rem;
+    margin: 4rem;
+}
+
+.main div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-content: center;
+    margin: 0.2rem;
+  
+    
+    
+}
+
+.main div div {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.main div div h3 {
+    margin: 0.2rem;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background-color: crimson;
+    font-weight: bold;
+    width: 100px;
+    height: 35px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+
+}
