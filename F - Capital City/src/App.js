@@ -1,10 +1,8 @@
 
-
+import Capitals from "./components/Capital/capital";
 function App() {
   return (
-    <div>
-       
-    </div>
+    <Capitals/>
   );
 }
 
