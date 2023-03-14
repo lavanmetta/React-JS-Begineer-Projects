@@ -1,10 +1,8 @@
-
+import CoinToss from "./components/CoinToss";
 
 function App() {
   return (
-    <div>
-       
-    </div>
+    <CoinToss/>
   );
 }
 
