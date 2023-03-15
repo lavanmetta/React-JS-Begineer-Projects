@@ -1,0 +1,54 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card > h3 {
+  margin: 5px;
+  color: white;
+  text-align: center;
+}
+
+.card > p {
+    margin: 0px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: white
+  }
+
+.card > img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: crimson;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 50%;
+}
+
+i {
+    margin: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: white;
+}
+

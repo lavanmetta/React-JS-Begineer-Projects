@@ -1,10 +1,10 @@
-
+import Reviews from "./components/Reviews/reviews";
 
 function App() {
   return (
-    <div>
-       
-    </div>
+  
+    <Reviews/>
+    
   );
 }
 
