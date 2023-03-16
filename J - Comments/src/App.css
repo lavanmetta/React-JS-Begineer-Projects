@@ -1,0 +1,112 @@
+.main-container {
+    padding: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.second-container {
+    width: 400px;
+    height: 100%;
+    top: 2px;
+    padding: 2rem;
+    position: fixed;
+    right: 0;
+    overflow-y: scroll;
+    background-color: aliceblue;
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.comment > textarea {
+    width: 80%;
+    height: 120px;
+    resize: none;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: normal;
+
+}
+
+.comment > button {
+    width: 130px;
+    height: 38px;
+    margin-top: 1rem;
+    cursor: pointer;
+    border: none;
+    background-color: crimson;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    letter-spacing: 1px;
+}
+
+.comment-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.Name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: crimson;
+    border-radius: 100px;
+    color: white;
+    width: 60px;
+    height: 60px;
+
+}
+
+.Name > h2 {
+    font-size: 1.1rem;
+}
+
+.comment-item > p {
+    margin-left: 1rem;
+    
+}
+
+.comment > input {
+    width: 40%;
+    height: 30px;
+    resize: none;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+    font-weight: normal;
+}
+
+.comment-para > h4 {
+   margin: 0px;
+   
+}
+
+.comment-para > p {
+    margin: 0px;
+    font-size: 0.8rem;
+    width:100%;
+    color: rgb(71, 71, 71);
+ }
+
+ .comment-para {
+    margin-left: 1rem;
+    width: 300px;
+    max-width: 400px;
+ }
