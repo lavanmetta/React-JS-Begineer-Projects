@@ -1,8 +1,8 @@
-import MovieStore from "./components/MovieStore";
+import Appointment from "./components/Appoinments/Appointment";
 
 function App() {
   return (
-    <MovieStore/>
+    <Appointment/>
   );
 }
 

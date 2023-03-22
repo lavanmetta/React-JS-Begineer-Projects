@@ -3,3 +3,30 @@
 * {
     font-family: "Poppins", sans-serif;
 }
+
+input {
+    font-weight: 300;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid grey;
+    
+    
+}
+
+textarea {
+    font-weight: 300;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid grey;
+    resize: none;
+    height: 100px;
+}
+
+p {
+    margin: 1px;
+    font-size: 12px
+}
+
+i {
+    cursor: pointer;
+}
