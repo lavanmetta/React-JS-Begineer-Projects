@@ -4,13 +4,14 @@ import { AppointmentsList } from "./data";
 
 class Appointment extends Component {
   state = {
-    id: '',
+    id: "",
     appointmentName: "",
     personName: "",
     date: "",
     time: "",
     message: "",
     appointmentsLists: [],
+    like: false,
   };
 
   componentDidMount() {
@@ -21,7 +22,6 @@ class Appointment extends Component {
   handleChange = (e) => {
     const { name, value } = e.target;
     this.setState({ [name]: value });
-    
   };
 
   handleSubmit = () => {
@@ -37,8 +37,30 @@ class Appointment extends Component {
     this.setState({
       appointmentsLists: [...this.state.appointmentsLists, newAppointment],
     });
-    
   };
+
+  handleFavorite = (id) => {
+    const favoritesLikes = this.state.appointmentsLists.filter(
+      (each) => each.id === id
+    );
+    const result =
+      favoritesLikes &&
+      this.setState((prevState) => {
+        return {
+          like: !prevState.like,
+        };
+      });
+      return result
+  };
+
+
+  handleDelete = (id) => {
+   
+    const deleted = this.state.appointmentsLists.filter(
+      (each) => each.id !== id
+    );
+    this.setState({appointmentsLists: deleted})
+  }
 
   render() {
     const { appointmentsLists } = this.state;
@@ -91,9 +113,15 @@ class Appointment extends Component {
           </button>
         </div>
 
-        <div className="container col-5 m-3 p-2 card">
+        <div className="container col-5 m-3 p-2 card hh">
           {appointmentsLists.map((each) => (
-            <Items key={each.id} appointments={each} />
+            <Items
+              key={each.id}
+              appointments={each}
+              liked={this.state.like}
+              handleFavorite={this.handleFavorite}
+              handleDelete={this.handleDelete}
+            />
           ))}
         </div>
       </div>

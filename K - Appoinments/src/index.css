@@ -30,3 +30,8 @@ p {
 i {
     cursor: pointer;
 }
+
+.hh {
+  overflow-y: scroll;
+  height: 70vh;
+}
