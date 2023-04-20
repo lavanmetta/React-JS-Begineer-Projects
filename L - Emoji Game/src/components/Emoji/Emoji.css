@@ -1,10 +1,46 @@
 .emoji-main-container  {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
     justify-content: center;
     align-items: center;
     justify-items: center;
-    width: 60%;
-    gap: 10px;
+    width: 50%;
+    row-gap: 10px;
+    column-gap: 0px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    max-width: 1600px;
+}
+
+
+@media screen and (max-width: 768px)  {
+    .emoji-main-container  {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        width: 100%;
+        row-gap: 10px;
+        column-gap: 0px;
+    }
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+        
+    }
+
+    .header-container h1 {
+        font-size: 24px;
+    }
 }

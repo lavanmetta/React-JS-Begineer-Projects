@@ -7,12 +7,12 @@ function Header(props) {
   return (
     <div>
       <div className="header-container">
-        <h1>Emoji😎 Game</h1>
+        <h1>EmoG😎</h1>
 
         {gameProgress && (
-          <div>
-            <h2>{currentScore}</h2>
-            <h2>{topScore}</h2>
+          <div className="score">
+            <h2>Score: {currentScore}</h2>
+            <h2>Top Score: {topScore}</h2>
           </div>
         )}
       </div>

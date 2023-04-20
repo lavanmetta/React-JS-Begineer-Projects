@@ -2,8 +2,44 @@
     background-color: azure;
     padding: 10px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: space-between;
+    margin-bottom: 1rem;
 }
 
 .header-container h1 {
     margin: 0;
+}
+
+.score {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.score h2 {
+    margin: 10px;
+}
+
+@media screen and (max-width: 768px)  {
+   .score h2 {
+    font-size: 18px;
+   }
+   .header-container {
+    background-color: azure;
+    padding: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+}
+.header-container h1 {
+    margin: 7px;
+}
 }

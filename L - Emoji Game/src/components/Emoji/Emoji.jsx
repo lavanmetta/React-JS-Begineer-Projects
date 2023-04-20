@@ -2,33 +2,32 @@ import React, { useState } from "react";
 
 import Card from "../Card/Card";
 import Header from "../Header/Header";
+import Result from "../ResultCard/Result";
 
 import "./Emoji.css";
-import Result from "../ResultCard/Result";
 
 function Emoji(props) {
   const { emojisList } = props;
 
-  const [state, setState] = useState({
-    activeEmojisList: [],
-    gameProgress: true,
-    topScore: 0,
-  });
+  const [activeEmojisList, setActiveEmojisList] = useState([]);
+  const [gameProgress, setGameProgress] = useState(true);
+  const [topScore, setTopScore] = useState(0);
 
   // reset game progress
 
   const resetGame = () => {
-    setState({ activeEmojisList: [], gameProgress: true });
+    setActiveEmojisList([]);
+    setGameProgress(true);
   };
 
   //   result Render starts here
 
   const renderResults = () => {
-    const isWon = state.activeEmojisList.length === emojisList.length;
+    const isWon = activeEmojisList.length === emojisList.length;
 
     return (
       <Result
-        score={state.activeEmojisList.length}
+        score={activeEmojisList.length}
         playAgain={resetGame}
         isWon={isWon}
       />
@@ -51,21 +50,21 @@ function Emoji(props) {
   // finish game
 
   const finishGame = (currentScore) => {
-    
-    let newScore = state.topScore;
-    
+    let newScore = topScore;
+
     if (currentScore > newScore) {
       newScore = currentScore;
     }
 
-    setState({ topScore: newScore, gameProgress: false });
+    setTopScore(newScore);
+    setGameProgress(false);
   };
 
   // start a game
 
   const clickEmoji = (id) => {
-    const isClicked = state.activeEmojisList.includes(id);
-    const clickedEmojiLength = state.activeEmojisList.length;
+    const isClicked = activeEmojisList.includes(id);
+    const clickedEmojiLength = activeEmojisList.length;
 
     if (isClicked) {
       finishGame(clickedEmojiLength);
@@ -73,30 +72,28 @@ function Emoji(props) {
       if (clickedEmojiLength === emojisList.length - 1) {
         finishGame(emojisList.length);
       }
-      setState( prevState => ({
-        ...prevState,
-        activeEmojisList: [...prevState.activeEmojisList, id],
-      }));
-      console.log("isClicked  : " + isClicked)
-      console.log("clickedEmojiLength  : " + clickedEmojiLength)
-      console.log("emojiListLength  : " + emojisList.length)
-      console.log("stateActiveEmojiLength  : " + state.activeEmojisList.length)
-      
+      setActiveEmojisList((prevState) => {
+        return [...prevState, id];
+      });
     }
-    
   };
 
   return (
-    <div className="main-container">
+    <>
       <Header
-        currentScore={state.activeEmojisList.length}
-        topScore={state.topScore}
-        gameProgress={state.gameProgress}
+        currentScore={activeEmojisList.length}
+        topScore={topScore}
+        gameProgress={gameProgress}
       />
-      <div className="emoji-main-container">
-        {state.gameProgress ? renderEmojiList() : renderResults()}
+      <div className="main-container">
+        <div className="emoji-main-container"></div>
+        {gameProgress === true ? (
+          <div className="emoji-main-container">{renderEmojiList()}</div>
+        ) : (
+          <div>{renderResults()}</div>
+        )}
       </div>
-    </div>
+    </>
   );
 }
 

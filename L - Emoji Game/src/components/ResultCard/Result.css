@@ -1,0 +1,29 @@
+.result-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    
+}
+
+.det {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.det h2 {
+    margin: 2px;
+}
+
+.det p {
+    margin: 2px;
+}
+
+.det button {
+    color: rgb(0, 106, 255);
+}
