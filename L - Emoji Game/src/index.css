@@ -2,4 +2,9 @@
 
 * {
     font-family: "Poppins", sans-serif;
+    
+}
+
+html, body {
+    margin: 0;
 }

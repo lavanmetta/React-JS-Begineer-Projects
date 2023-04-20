@@ -1,10 +1,11 @@
-
+import React from "react";
+import ListData from "./components/ListData/ListData";
 
 function App() {
   return (
-    <div>
-       <p
-    </div>
+    <React.Fragment>
+      <ListData />
+    </React.Fragment>
   );
 }
 

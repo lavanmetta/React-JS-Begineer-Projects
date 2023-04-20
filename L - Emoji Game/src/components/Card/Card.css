@@ -1,0 +1,25 @@
+
+
+.each-emoji img {
+   width: 100px;
+   height: 100px;
+}
+
+.each-emoji {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    background-color: aliceblue;
+    padding: 1rem;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
