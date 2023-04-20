@@ -41,10 +41,11 @@ button {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
         background-color: aliceblue;
         padding: 0.5rem;
+        margin: 10px;
         border-radius: 20px;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     
