@@ -42,10 +42,16 @@ button {
         justify-content: center;
         align-items: center;
         width: 100px;
+        height: 100px;
         background-color: aliceblue;
         padding: 0.5rem;
         border-radius: 20px;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     
+    }
+
+    .each-emoji img:hover {
+        transform: rotate(0deg) scale(1);
+        transition: all 0.3s ease-in-out;
     }
 }

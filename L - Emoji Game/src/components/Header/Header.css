@@ -37,9 +37,17 @@
     flex-direction: row;
     height: 50px;
     justify-content: space-evenly;
+    align-items: center;
     margin-bottom: 1rem;
 }
-.header-container h1 {
-    margin: 7px;
+.header-container  {
+    display: f;
+}
+
+.score {
+    background-color: crimson;
+    color: white;
+    border-radius: 10px;
+    padding: 2px;
 }
 }

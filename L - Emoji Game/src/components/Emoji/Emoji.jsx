@@ -90,7 +90,7 @@ function Emoji(props) {
         {gameProgress === true ? (
           <div className="emoji-main-container">{renderEmojiList()}</div>
         ) : (
-          <div>{renderResults()}</div>
+          <div className="render-res">{renderResults()}</div>
         )}
       </div>
     </>
