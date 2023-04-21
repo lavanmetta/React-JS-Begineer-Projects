@@ -4,7 +4,7 @@
 
 
 
-<img src="https://res.cloudinary.com/dp9ofsajd/image/upload/v1682086208/mobile_6_xeagxn.png" alt="img" width="300" height="200"/>
+<img src="https://res.cloudinary.com/dp9ofsajd/image/upload/v1682086208/mobile_6_xeagxn.png" alt="img" width="200" height="100"/>
 <img src="https://res.cloudinary.com/dp9ofsajd/image/upload/v1682086208/mobile_9_fwcopb.png" alt="img" width="300" height="200" />
 <img src="https://res.cloudinary.com/dp9ofsajd/image/upload/v1682086227/mobile_5_ejfm0t.png" alt="img" />
 <img src="https://res.cloudinary.com/dp9ofsajd/image/upload/v1682086208/mobile_7_pamh8x.png" alt="img" />
