@@ -1,0 +1,52 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.buttons {
+    background-color: crimson;
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.buttons button {
+    background-color: white;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.tab {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.tab p {
+    margin: 0;
+    text-align: start;
+}
+
+.tab span {
+    font-weight: 600;
+}
+.active {
+    background-color: black !important;
+    color: white;
+    border: 2px solid white;
+}
