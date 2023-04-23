@@ -26,7 +26,6 @@
 <img src="https://res.cloudinary.com/dp9ofsajd/image/upload/v1682086206/mobile_12_spcytc.png" alt="img" width="200" height="100"  />
 <img src="https://res.cloudinary.com/dp9ofsajd/image/upload/v1682086206/mobile_14_zdeexf.png" alt="img"  width="200" height="100" />
 <img src="https://res.cloudinary.com/dp9ofsajd/image/upload/v1682086206/mobile_15_zrkdhg.png" alt="img" width="200" height="100"  />
-
 </div>
 
 
