@@ -3,3 +3,19 @@
 * {
     font-family: "Poppins", sans-serif;
 }
+
+
+img {
+    object-fit: fill;
+    width: 300px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.03);
+    transition: transform 500ms ease-in-out;
+}
