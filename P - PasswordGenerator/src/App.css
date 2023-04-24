@@ -1,0 +1,51 @@
+.cap {
+    text-transform: uppercase;
+}
+
+.sm {
+    text-transform: lowercase;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background-color: aliceblue;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.in form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.in form input {
+    margin: 5px;
+   border: none;
+    outline: none;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.315) 0px 1px 4px;
+    
+}
+
+.btn {
+    background-color: crimson;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none !important;
+    height: 36px !important;
+}
+
+.res {
+    background-color: azure;
+    padding: 1rem;
+    border-radius:4px;
+    box-shadow: rgba(0, 0, 0, 0.315) 0px 1px 4px;
+}
