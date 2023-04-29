@@ -1,10 +1,9 @@
+import Quiz from "./Components/QuizApp/Quiz";
 
 
 function App() {
   return (
-    <div>
-       
-    </div>
+    <Quiz/>
   );
 }
 
