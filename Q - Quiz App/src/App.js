@@ -3,7 +3,10 @@ import Quiz from "./Components/QuizApp/Quiz";
 
 function App() {
   return (
+ 
+    
     <Quiz/>
+  
   );
 }
 

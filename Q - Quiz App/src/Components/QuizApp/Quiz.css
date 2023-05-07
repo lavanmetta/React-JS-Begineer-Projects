@@ -1,5 +1,73 @@
-span {
-    background-color: aquamarine;
-    padding: 0.5rem;
-    margin: 10px;
+.box {
+    padding: 2rem;
+    background-color: aliceblue;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.main {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.options {
+   display: flex;
+   flex-direction: column;
+   margin-top: 1rem;
+}
+
+.button {
+    margin-top: 1rem;
+}
+
+button {
+    background-color: crimson;
+    width: 120px;
+    height: 35px;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.head {
+    padding: 1rem;
+}
+
+.la-ma {
+    margin-left: 10px;
+}
+
+.radio-cus {
+    width: 20px;
+}
+
+input[type="radio" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 12px 0px 0px 0px;
+    padding: initial;
+    border: initial;
+}
+
+input[type="radio"] {
+  width: 1.5em;
+  height: 1.5rem;
+  accent-color: crimson;
+  cursor: pointer;
+}
+
+.option {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: end;
 }
