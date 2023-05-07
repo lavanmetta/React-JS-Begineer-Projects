@@ -69,5 +69,9 @@ input[type="radio"] {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: end;
+    align-items: flex-end;
+}
+
+.response {
+    margin-top: 1rem;
 }

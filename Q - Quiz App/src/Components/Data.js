@@ -1,7 +1,7 @@
 const Questions = [
   {
     id: 1,
-    question: "What does CSS stand for?",
+    question: "1) What does CSS stand for?",
     answers: [
       "Cascading Style Sheets",
       "Creative Style Sheets",
@@ -13,7 +13,7 @@ const Questions = [
   },
   {
     id: 2,
-    question: "How do you select an element by its ID in CSS?",
+    question: "2) How do you select an element by its ID in CSS?",
     answers: ["#elementID", ".elementID", "elementID", "id.elementID"],
     correctAnswer: "#elementID",
     explanation:
@@ -21,7 +21,7 @@ const Questions = [
   },
   {
     id: 3,
-    question: "What is the default value of the position property in CSS?",
+    question: "3) What is the default value of the position property in CSS?",
     answers: ["static", "relative", "absolute", "fixed"],
     correctAnswer: "static",
     explanation: "The default value of the position property in CSS is static.",
@@ -29,7 +29,7 @@ const Questions = [
   {
     id: 4,
     question:
-      "What is the CSS property used to add a shadow effect to an element?",
+      "4) What is the CSS property used to add a shadow effect to an element?",
     answers: ["box-shadow", "text-shadow", "shadow-effect", "element-shadow"],
     correctAnswer: "box-shadow",
     explanation:
@@ -38,7 +38,7 @@ const Questions = [
   {
     id: 5,
     question:
-      "What is the CSS property used to set the background color of an element?",
+      "5) What is the CSS property used to set the background color of an element?",
     answers: ["background-color", "color", "background-bg", "background-image"],
     correctAnswer: "background-color",
     explanation:
@@ -46,21 +46,21 @@ const Questions = [
   },
   {
     id: 6,
-    question: "What is the CSS property used to make text bold?",
+    question: "6) What is the CSS property used to make text bold?",
     answers: ["font-weight", "text-weight", "bold", "text-bold"],
     correctAnswer: "font-weight",
     explanation: "The CSS property used to make text bold is font-weight.",
   },
   {
     id: 7,
-    question: "What is the CSS property used to make text italic?",
+    question: "7) What is the CSS property used to make text italic?",
     answers: ["font-style", "text-style", "italic", "text-italic"],
     correctAnswer: "font-style",
     explanation: "The CSS property used to make text italic is font-style.",
   },
   {
     id: 8,
-    question: "What is the CSS property used to add space between elements?",
+    question: "8) What is the CSS property used to add space between elements?",
     answers: ["margin", "padding", "border", "spacing"],
     correctAnswer: "margin",
     explanation:
@@ -68,7 +68,7 @@ const Questions = [
   },
   {
     id: 9,
-    question: "What is the CSS property used to align text within an element?",
+    question: "9) What is the CSS property used to align text within an element?",
     answers: ["text-align", "align", "text-justify", "justify"],
     correctAnswer: "text-align",
     explanation:
@@ -77,7 +77,7 @@ const Questions = [
   {
     id: 10,
     question:
-      "What is the CSS property used to set the font family of an element?",
+      "10) What is the CSS property used to set the font family of an element?",
     answers: ["font-family", "font-type", "font-style", "font"],
     correctAnswer: "font-family",
     explanation:
