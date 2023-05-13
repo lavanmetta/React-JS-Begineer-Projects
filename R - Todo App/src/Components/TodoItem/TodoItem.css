@@ -1,0 +1,47 @@
+.lists {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(207, 232, 255);
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 4px;
+    border-bottom: 2px solid crimson;
+    height: 40px;
+}
+
+.del {
+    border-radius: 100px;
+    height: 26px;
+    width: 26px;
+    text-align: center;
+    padding: 0;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
+    box-shadow: rgba(255, 0, 0, 0.35) 0px 5px 10px;
+}
+
+.para {
+    font-size: 14px;
+}
+
+.check {
+    cursor: pointer;
+    width: 1rem;
+    height: 1rem;
+    accent-color: crimson;
+}
+
+ 
+
+.i {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+
+  label {
+    margin-left: 5px;
+  }
